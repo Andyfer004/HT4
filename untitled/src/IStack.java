@@ -3,12 +3,7 @@
  *
  */
 
-/**
- * @author Andre marroquin
- * Gabriell paz
- * Andy fuentes
- * Seccion 10 estructura de datos
- */
+
 public interface IStack<T> {
     /**
      * @param _expresion

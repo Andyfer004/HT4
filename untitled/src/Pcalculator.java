@@ -1,11 +1,9 @@
 import java.util.ArrayList;
 /**
- * @author Andre marroquin
- * Gabriell paz
- * Andy fuentes
- * Seccion 10 estructura de datos
- */
+    * @author Seccion 10
+    */
 public class Pcalculator implements IPostfixCalculator {
+    private static Pcalculator instance = null;
 
     /**
      * @param operandos
@@ -91,4 +89,13 @@ public class Pcalculator implements IPostfixCalculator {
         }
         return datos;
     }
+    public static Pcalculator getInstance() {
+        if (instance == null) {
+            instance = new Pcalculator();
+        }
+        return instance;
+    }
+    private Pcalculator() {
+    }
+
 }

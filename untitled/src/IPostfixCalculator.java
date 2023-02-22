@@ -1,13 +1,13 @@
 /**
  * @author Seccion 10
  */
-/**
- * @author Andre marroquin
- * Gabriell paz
- * Andy fuentes
- * Seccion 10 estructura de datos
- */
+
 public interface IPostfixCalculator {
+    /**
+     * @param operandos
+     * @return boolean
+     * verifica si la lista tiene un solo elemento
+     */
 
     /**
      * @param _expresion
