@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Controladora { /*creamos la clase controladora*/
     public ArrayList<String> datos = new ArrayList<String>();/*creamos un arraylist para guardar los datos del archivo*/
-    private IPostfixCalculator calc = new Pcalculator(); /*creamos una instancia de la clase Pcalculator*/
+    public IPostfixCalculator calc = new Pcalculator(); /*creamos una instancia de la clase Pcalculator*/
 
 
 

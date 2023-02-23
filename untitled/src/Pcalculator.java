@@ -95,7 +95,7 @@ public class Pcalculator implements IPostfixCalculator {
         }
         return instance;
     }
-    private Pcalculator() {
+    public Pcalculator() {
     }
 
 }

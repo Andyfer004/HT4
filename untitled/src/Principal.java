@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 /**
  * @author Andy Fuentes
+ * USE CODIGO DE LA HOJA DE TRABAJO 2 DEL GRUPO
  */
 /** creamos la clase principal */
 public class Principal {
